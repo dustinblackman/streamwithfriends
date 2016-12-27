@@ -2,6 +2,7 @@ body {
   background-color: #00b140;
 }
 
+/* TODO: See if this is needed or not */
 .main {
   margin: auto;
 }
@@ -18,10 +19,10 @@ body {
 
 .video {
   position: relative;
-  width: 250px;
 }
 
 .video video {
+  width: 250px;
   padding-bottom: 2px;
 }
 
