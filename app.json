@@ -1,0 +1,10 @@
+{
+  "name": "StreamWithFriends",
+  "description": "StreamWithFriends works by adding friends webcams to your stream all through a web browser",
+  "repository": "https://github.com/dustinblackman/streamwithfriends",
+  "keywords": ["javascript", "obs", "xsplit", "twitch"],
+  "addons": [
+    "logentries",
+    "librato"
+  ]
+}
