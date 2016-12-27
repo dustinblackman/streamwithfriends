@@ -1,4 +1,4 @@
-const webrtc = new SimpleWebRTC({
+const webrtc = new SimpleWebRTC({ // eslint-disable-line
   localVideoEl: '',
   remoteVideosEl: '',
   media: {

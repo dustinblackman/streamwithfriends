@@ -10,7 +10,7 @@
     "dev": "NODE_ENV=development nodemon --watch ./src --watch ./views --ignore 'views/*.marko.js' --exec 'npm run build-client && babel-node' src/index.js",
     "postinstall": "npm run build",
     "start": "node dist/index.js",
-    "test": "eslint ."
+    "test": "eslint ./src"
   },
   "author": "Dustin Blackman",
   "license": "MIT",
