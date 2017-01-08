@@ -3,7 +3,10 @@ const webrtc = new SimpleWebRTC({ // eslint-disable-line
   localVideoEl: 'videos',
   remoteVideosEl: '',
   media: {
-    video: true,
+    video: {
+      width: 1280,
+      height: 720
+    },
     audio: false
   },
   autoRequestMedia: true
