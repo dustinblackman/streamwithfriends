@@ -15,6 +15,7 @@ body {
   width: 556px;
   flex-wrap: wrap-reverse;
   flex-direction: row;
+  overflow: hidden;
  }
 
 .video {
