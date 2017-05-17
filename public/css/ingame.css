@@ -1,0 +1,49 @@
+body {
+  background-color: #00b140;
+}
+
+/* TODO: See if this is needed or not */
+.main {
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.videos {
+  display: flex;
+  height: 334px;
+  width: 556px;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+ }
+
+.video {
+  width: 278px;
+  height: 167px;
+  position: relative;
+}
+
+.video video {
+  width: 278px;
+  padding-top: 3px;
+}
+
+.video img {
+  width: 278px;
+}
+
+.video img {
+  position: absolute;
+  left: 0;
+  z-index: 1
+}
+
+.video span {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  z-index: 2;
+}

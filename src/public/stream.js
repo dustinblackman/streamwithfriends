@@ -8,7 +8,7 @@ const webrtc = new SimpleWebRTC({ // eslint-disable-line
 });
 
 webrtc.on('videoAdded', (video, peer) => {
-  const html = `<div id="vid_${peer.nick}" class="video animated slideInLeft"><img src="/img/border.png" /><span>${peer.nick}</span></div>`;
+  const html = window.genVideoHTML(peer.nick);
   let users = $('.video > span').map((idx, el) => {
     return $(el).text();
   }).get();

@@ -22,7 +22,8 @@ app.use(compression());
 app.use(helmet());
 app.use(express.static('public'));
 
-app.get('/stream', (req, res) => res.marko(views.stream, {channel_id}));
+app.get('/leftside', (req, res) => res.marko(views.leftside, {channel_id}));
+app.get('/ingame', (req, res) => res.marko(views.ingame, {channel_id}));
 app.get('/', (req, res) => res.marko(views.index, {channel_id}));
 
 console.log(`Listening on port: ${port}`);
