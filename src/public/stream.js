@@ -7,7 +7,7 @@ const webrtc = new SimpleWebRTC({ // eslint-disable-line
   }
 });
 
-webrtc.on('videoAdded', (video, peer) => {
+const addVideo = (video, peer) => {
   const html = window.genVideoHTML(peer.nick);
   let users = $('.video > span').map((idx, el) => {
     return $(el).text();
@@ -26,7 +26,9 @@ webrtc.on('videoAdded', (video, peer) => {
   }
 
   $(`#vid_${peer.nick}`).prepend(video);
-});
+};
+
+webrtc.on('videoAdded', addVideo);
 
 webrtc.on('videoRemoved', (video, peer) => {
   const el = $(`#vid_${peer.nick}`);

@@ -1,0 +1,72 @@
+body {
+  background-color: #00b140;
+}
+
+/* TODO: See if this is needed or not */
+.main {
+  margin: auto;
+  position: absolute;
+  left: 524px;
+  bottom: 26px
+}
+
+.secondary {
+  left: 22px;
+  top: 344px;
+  width: 425px;
+  height: 250px;
+  position: absolute;
+}
+
+.secondary-video {
+  width: 425px;
+  height: 250px;
+}
+
+.secondary-video video {
+  width: 425px;
+  padding-top: 3px;
+}
+
+.secondary-video img {
+  width: 425px;
+}
+
+.videos {
+  display: flex;
+  height: 254px;
+  width: 430px;
+  flex-direction: row;
+ }
+
+.video {
+  width: 430px;
+  height: 254px;
+  position: relative;
+  padding-right: 10px
+}
+
+.video video {
+  width: 430px;
+  padding-top: 3px;
+}
+
+.video img {
+  width: 430px;
+}
+
+.video img {
+  position: absolute;
+  left: 0;
+  z-index: 1
+}
+
+.video span {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  position: absolute;
+  bottom: 8px;
+  left: 15px;
+  z-index: 2;
+}
