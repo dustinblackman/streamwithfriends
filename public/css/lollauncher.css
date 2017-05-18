@@ -13,23 +13,38 @@ body {
 .secondary {
   left: 22px;
   top: 344px;
-  width: 425px;
-  height: 250px;
+  width: 518px;
+  height: 306px;
   position: absolute;
 }
 
 .secondary-video {
-  width: 425px;
-  height: 250px;
+  width: 518px;
+  height: 306px;
+  position: relative;
 }
 
 .secondary-video video {
-  width: 425px;
+  width: 518px;
   padding-top: 3px;
 }
 
 .secondary-video img {
-  width: 425px;
+  width: 518px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1
+}
+
+.secondary-video span {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 17px;
+  z-index: 2;
 }
 
 .videos {
