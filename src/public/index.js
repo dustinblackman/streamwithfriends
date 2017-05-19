@@ -7,7 +7,10 @@ const webrtc = new SimpleWebRTC({ // eslint-disable-line
       width: {exact: 640},
       height: {exact: 480}
     },
-    audio: false
+    audio: false,
+    framerate: {
+      max: 30
+    }
   },
   autoRequestMedia: true
 });
