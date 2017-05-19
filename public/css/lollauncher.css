@@ -16,12 +16,14 @@ body {
   width: 518px;
   height: 306px;
   position: absolute;
+
 }
 
 .secondary-video {
   width: 518px;
   height: 306px;
   position: relative;
+  overflow: hidden;
 }
 
 .secondary-video video {
