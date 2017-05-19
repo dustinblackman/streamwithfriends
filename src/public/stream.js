@@ -16,7 +16,7 @@ const addVideo = (video, peer) => {
   const user_idx = users.findIndex(entry => entry === peer.nick);
 
   // Lazy, make it hacky for now
-  if (window.location.href.includes('lollauncher') && (peer.nick.toLowerCase() === 'dustin')) {
+  if (window.location.href.includes('lollauncher') && (peer.nick.toLowerCase() === 'dustin' || peer.nick.toLowerCase() === 'omer')) {
     $('#secondary').append(html);
   } else if (user_idx === 0) {
     $('#videos').prepend(html);

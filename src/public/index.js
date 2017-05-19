@@ -4,8 +4,8 @@ const webrtc = new SimpleWebRTC({ // eslint-disable-line
   remoteVideosEl: '',
   media: {
     video: {
-      width: {exact: 1280},
-      height: {exact: 720}
+      width: {exact: 640},
+      height: {exact: 480}
     },
     audio: false
   },
