@@ -9,7 +9,7 @@ const webrtc = new SimpleWebRTC({ // eslint-disable-line
     },
     audio: false,
     framerate: {
-      max: 30
+      max: 60
     }
   },
   autoRequestMedia: true
