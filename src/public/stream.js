@@ -1,5 +1,6 @@
 let users = [];
 const webrtc = new SimpleWebRTC({ // eslint-disable-line
+  url: 'https://duonoobssignal.herokuapp.com',
   localVideoEl: '',
   remoteVideosEl: '',
   media: {
@@ -9,6 +10,7 @@ const webrtc = new SimpleWebRTC({ // eslint-disable-line
 });
 
 const addVideo = (video, peer) => {
+  window.currentPeer = peer;
   const html = window.genVideoHTML(peer.nick);
 
   users.push(peer.nick);
