@@ -9,6 +9,45 @@ body {
   bottom: 0;
 }
 
+.firstly {
+  left: 1212px;
+  top: 830px;
+  width: 320px;
+  height: 185px;
+  position: absolute;
+
+}
+
+.firstly-video {
+  width: 320px;
+  height: 185px;
+  position: relative;
+  overflow: hidden;
+}
+
+.firstly-video video {
+  width: 320px;
+  padding-top: 3px;
+}
+
+.firstly-video img {
+  width: 320px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1
+}
+
+.firstly-video span {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1px;
+  position: absolute;
+  bottom: 10px;
+  left: 17px;
+  z-index: 2;
+}
+
 .videos {
   display: flex;
   height: 334px;

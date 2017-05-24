@@ -10,6 +10,45 @@ body {
   bottom: 26px
 }
 
+.firstly {
+  left: 22px;
+  top: 20px;
+  width: 518px;
+  height: 306px;
+  position: absolute;
+
+}
+
+.firstly-video {
+  width: 518px;
+  height: 306px;
+  position: relative;
+  overflow: hidden;
+}
+
+.firstly-video video {
+  width: 518px;
+  padding-top: 3px;
+}
+
+.firstly-video img {
+  width: 518px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1
+}
+
+.firstly-video span {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 17px;
+  z-index: 2;
+}
+
 .secondary {
   left: 22px;
   top: 344px;

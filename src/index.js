@@ -24,6 +24,8 @@ app.use(express.static('public'));
 
 app.get('/leftside', (req, res) => res.marko(views.leftside, {channel_id}));
 app.get('/lollauncher', (req, res) => res.marko(views.lollauncher, {channel_id}));
+app.get('/omer-lollauncher', (req, res) => res.marko(views.lollauncher, {channel_id}));
+app.get('/omer-ingame', (req, res) => res.marko(views.ingame, {channel_id}));
 app.get('/ingame', (req, res) => res.marko(views.ingame, {channel_id}));
 app.get('/', (req, res) => res.marko(views.index, {channel_id}));
 

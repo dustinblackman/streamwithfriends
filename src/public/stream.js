@@ -18,7 +18,11 @@ const addVideo = (video, peer) => {
   const user_idx = users.findIndex(entry => entry === peer.nick);
 
   // Lazy, make it hacky for now
-  if (window.location.href.includes('lollauncher') && (peer.nick.toLowerCase() === 'dustin' || peer.nick.toLowerCase() === 'omer')) {
+  if (window.location.href.includes('omer-lollauncher') && (peer.nick.toLowerCase() === 'omer')) {
+    $('#firstly').append(html);
+  } else if (window.location.href.includes('omer-ingame') && (peer.nick.toLowerCase() === 'omer')) {
+    $('#firstly').append(html);
+  } else if (window.location.href.includes('lollauncher') && (peer.nick.toLowerCase() === 'dustin' || peer.nick.toLowerCase() === 'omer')) {
     $('#secondary').append(html);
   } else if (user_idx === 0) {
     $('#videos').prepend(html);
