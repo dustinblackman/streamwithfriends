@@ -12,26 +12,26 @@ body {
 .firstly {
   left: 1229px;
   top: 847px;
-  width: 320px;
-  height: 185px;
+  width: 375px;
+  height: 190px;
   position: absolute;
 
 }
 
 .firstly-video {
-  width: 320px;
-  height: 185px;
+  width: 375px;
+  height: 190px;
   position: relative;
   overflow: hidden;
 }
 
 .firstly-video video {
-  width: 320px;
+  width: 375px;
   padding-top: 3px;
 }
 
 .firstly-video img {
-  width: 320px;
+  width: 375px;
   position: absolute;
   left: 0;
   top: 0;
