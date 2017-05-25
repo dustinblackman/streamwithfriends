@@ -15,7 +15,7 @@ const addVideo = (video, peer) => {
 
   users.push(peer);
   users.sort();
-  const user_idx = users.findIndex(entry => entry === peer.nick);
+  const user_idx = users.findIndex(entry => entry.nick === peer.nick);
 
   // Lazy, make it hacky for now
   if (window.location.href.includes('omer-lollauncher') && (peer.nick.toLowerCase() === 'omer')) {
